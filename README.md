@@ -1,16 +1,26 @@
 
 # About Skein
 
-We partner with organizations of all sizes to design, develop, and grow innovative technology-based solutions for some of the worlds’ biggest challenges 
+We partner with organizations of all sizes to design, develop, and implement innovative digital tech for some of the worlds' biggest challenges, that include solutions for providing housing, improving healthcare, fixing financial processes. 
 
-We have worked with hundreds of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies to simplify your innovation process.
+We have worked with hundreds of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies.
 
 This is **How We Work**. It details how we make successful tech products, and also how we run our company.
 
 It is a living document that everyone at Skein can edit in a private GitHub repo.
 
+# Process
+
+## Agile Sprint-based delivery 
+
+We are a Crown Commercial Services supplier and follow agile delivery approach outlined at
+https://www.gov.uk/service-manual/agile-delivery 
 
 # Development
+
+## Sprints
+
+One of our primary process goals is to make frequent, small releases of our working software. We do through frequent communication and weekly iterations on a product. Development sprint usually last two weeks.
 
 ## Error Tracking
 
@@ -18,15 +28,11 @@ We use error tracking software to capture exceptions in production.
  
 We try to use tools that support all of the languages and platforms we use to build applications, and those which provide integrations that make it easy to stay on top of errors. Such as Sentry's Slack integration for real-time alerts and Jira integration so we can prioritize bugs in the same place as features.
  
-We like and use Sentry.
- 
 ## Acceptance Tests
 
 Acceptance tests are jobs stories turned into code. This code is run against the application. When executed for the first time, the test will fail. The developer writes application code until the test passes.
  
-When the test passes, the developer commits the code into version control with a message such as:
- 
->> Guest creates pledge
+When the test passes, the developer commits the code into version control.
  
 The code is then run on the Continuous Integration server to make sure the acceptance test still passes in an environment that matches the production environment.
  
@@ -36,7 +42,7 @@ When the acceptance test is green for the CI server and you and any other design
  
 ## Code Reviews
 
-Here's the flow. Read our git protocol for the git commands.
+Here's the flow:
 
 - Create a local feature branch based off master.
 - When feature is complete and tests pass, stage the changes.
@@ -70,31 +76,13 @@ This helps ensure there's nothing specific to the developer's machine making the
  
 When a build fails, we get alerts in Slack and via email. Click the alert and we see a backtrace that gives us a hint of how to "fix the build."
  
-When we write the fix and commit to version control again, we'll get a "passing build" alert in Slack and via email. Click the alert and we see the passing build.
+When we write the fix and commit to version control again, we'll get a "passing build" alert in Slack. Click the alert and we see the passing build.
  
 Green is good.
  
 A solid test suite is an absolute requirement for a web application. However, one major problem with test suites is that they get slow as they get large.
  
-CI can ease the pain by distributing the test runs in parallel. We've had 45 minute test suites cut down to 2 minutes using this technique.
- 
-We've used CruiseControl, Integrity, Jenkins, and other CI libraries that we manage ourselves. This resulted in many hours of expensive attention.
- 
-Now, we use a combination of CircleCI and Travis CI (both for private repositories and open source) because of their great UIs, simple configuration and close integration with GitHub.
- 
-CI test runs are triggered when we push to Github and can be seen as part of the status checks of pull requests. We also use Hound to help us follow our style guide and keep review comments focused on improving the code quality.
-
-## Pair Programming
-
-Code that is written by two people who sit next to each other at the same computer is pair-programmed code. That code is considered high quality and should result in cost savings due to less maintenance.
- 
-In the long run, this style of development saves money because fewer bugs are written and therefore do not need to be fixed later.
- 
-An indication that pairing is beneficial and should be done more often is the following example:
- 
-When you are writing an important piece of code, don't you want another person to look it over before it goes into production?
- 
-While we don't pair program 100% of the time, we recognize the difficulty in acting as a team when we work at a distance from each other. There is no better collaboration between designers, developers, or between designers and developers than at the keyboard.
+CI can ease the pain by distributing the test runs in parallel. 
 
 ## Refactoring
 
@@ -171,27 +159,7 @@ In limited special cases, user demographics will dictate that supporting a less 
  
 Browser support means that we make a site or web app usable. A usable site allows a user to achieve all necessary tasks. Support does not mean visual and behavioral parity across all browsers. While we may strive for this, it's not always possible to achieve the exact same user experience cross-browser.
 
-# Process
-
-We are a CCS supplier and follow agile delivery for tech innovation
-https://www.gov.uk/service-manual/agile-delivery
-
-## Agile Sprint-based delivery 
-
-One of our primary process goals is to make frequent, small releases of our working software. We do through frequent communication and weekly iterations on a product.
-
-## Discovery sprint
-
-Finding ways to best resolve client challenges
-Use cases
-User personas
-We use Figma to build flows and wireframes that will be used for screens
-
-## How we work with Design
-
-Fast prototyping - template. No design changes. Here that can be modified and used as a new website http://belmont.skein.co/
-Proper design Sprint, based on Wireframes and user stories - pass over to partners (Rob etc)
-While the latter approach is much more faster, but it can be used efficiently only in the case where colours, images and elements of the template are not changed, otherwise the overall look and feel will be negatively impacted; and if the template is kept as it is then obviously the unique aspect is lost. 
+# Processes
 
 ## Email
 
@@ -216,8 +184,6 @@ Without document type versioning (e.g. xls vs. xlsx).
 Cheap.
 These tools are not well-suited for large documents or complicated spreadsheets, but broadly these are not problems we have. We write code and are biased toward minimal documentation and against upfront specs so we rarely write long documents.
  
-We use Google Sheets for our company-wide budget and forecast. We also often use Google Sheets to collect or analyze other data. We can often create an initial version of something new there using IMPORTDATA and Heroku dataclips to avoid building a custom app.
- 
 ## Meetings
 
 We over-communicate with clients in-person and online to avoid having scheduled meetings. Every problem arises from poor communication.
@@ -234,11 +200,10 @@ We use conference lines that are part of our VoIP system, provided by OnSip, for
 
 We use Xero.
  
-Performance Reviews
+## Performance Reviews
 In order to continually improve ourselves and the company, all year round on every project we're on, we receive regular feedback from clients, managers, and teammates. We additionally have formal performance review three times a year.
  
-We use 15five to administer these reviews, which include a self-review, and feedback from both our manager and peers. The team feedback is shared with us before the review meeting.
- 
+
 The agenda for review meetings is roughly:
 - Review the feedback from team members
 - Our performance on recent consulting projects
@@ -247,28 +212,3 @@ The agenda for review meetings is roughly:
 - Our questions about thoughtbot and our strategy
 - Our areas of focus for the next quarter
 - The results of the review are recorded and influence future compensation increases.
-
-## Landin pages - questions to ask
- 
-Choice of CMS:
-- Wordpress 
-- Webflow
-
-How much of edits for news/blog posts will you be making, that is how necessary a Content Management System is? We would ideally stick to a clean JavaScript implementation which will help the front-end to remain fast and SEO-friendly, as opposite to going with something like Wordpress which tend to create issues for page speed, which is in turn is a very important aspect these days for Google's Page Rank. For the platform front-end React looks like a perfect option (a Facebook-supported framework with huge community that provides a great Single Page Application implementation, and SEO-friendly among other advantages), so it would make sense to also use React for the front landing pages.
-
-## How we work with data
-
-User data protection
-Secure servers and access
-SSL 
-Develop anonymisation
-
-## Sprint proposal template
-https://docs.google.com/document/d/1XevfXwI8wE-OdA0ehYJOw3n3irLYQ-xgcRtfKVDjqBA/edit?usp=sharing
-User flow
-Wireframes
-Detailed estimate tasks a few hours each max
-PM time
-Team comm
-Releases
-Unit tests
