@@ -1,4 +1,4 @@
-# Development :woman_technologist: :man_technologist:
+# Development
 
 ## Error Tracking
 
