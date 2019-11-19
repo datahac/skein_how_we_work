@@ -1,3 +1,8 @@
+This is **How We Work**. It details how we make successful tech products, and also how we run our company.
+
+It is a living document that everyone at Skein can edit in a private GitHub repo.
+
+
 # Development
 
 ## Error Tracking
