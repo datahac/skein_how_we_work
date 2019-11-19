@@ -173,8 +173,6 @@ Browser support means that we make a site or web app usable. A usable site allow
 
 # Process
 
-## The process
-
 We are a CCS supplier and follow agile delivery for tech innovation
 https://www.gov.uk/service-manual/agile-delivery
 
