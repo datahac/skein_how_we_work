@@ -1,3 +1,10 @@
+
+# About Skein
+
+We partner with organizations of all sizes to design, develop, and grow innovative technology-based solutions for some of the worlds’ biggest challenges 
+
+We have worked with hundreds of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies to simplify your innovation process.
+
 This is **How We Work**. It details how we make successful tech products, and also how we run our company.
 
 It is a living document that everyone at Skein can edit in a private GitHub repo.
@@ -163,3 +170,107 @@ Older versions are much harder, more time consuming and hence more expensive to 
 In limited special cases, user demographics will dictate that supporting a less common or older version of a browser is required. Those special cases should be identified early on so we can plan for additional time and expense in order to support the version.
  
 Browser support means that we make a site or web app usable. A usable site allows a user to achieve all necessary tasks. Support does not mean visual and behavioral parity across all browsers. While we may strive for this, it's not always possible to achieve the exact same user experience cross-browser.
+
+# Process
+
+## The process
+
+We are a CCS supplier and follow agile delivery for tech innovation
+https://www.gov.uk/service-manual/agile-delivery
+
+## Agile Sprint-based delivery 
+
+One of our primary process goals is to make frequent, small releases of our working software. We do through frequent communication and weekly iterations on a product.
+
+## Discovery sprint
+
+Finding ways to best resolve client challenges
+Use cases
+User personas
+We use Figma to build flows and wireframes that will be used for screens
+
+## How we work with Design
+
+Fast prototyping - template. No design changes. Here that can be modified and used as a new website http://belmont.skein.co/
+Proper design Sprint, based on Wireframes and user stories - pass over to partners (Rob etc)
+While the latter approach is much more faster, but it can be used efficiently only in the case where colours, images and elements of the template are not changed, otherwise the overall look and feel will be negatively impacted; and if the template is kept as it is then obviously the unique aspect is lost. 
+
+## Email
+
+We use Gmail for our email.
+ 
+## Calendar
+
+We use Google Calendar for our calendars.
+ 
+## Documents
+
+We use Google Docs for our editable documents.
+ 
+We prefer Google Docs because they are:
+ 
+Easily sharable by URL. Everyone has a browser, not everyone has Microsoft Office installed.
+Always up to date with the latest edits.
+Enable real-time collaboration, like group meeting notes.
+Autosaved to the cloud, so no worrying about backup.
+Are as easy to find as Googling something.
+Without document type versioning (e.g. xls vs. xlsx).
+Cheap.
+These tools are not well-suited for large documents or complicated spreadsheets, but broadly these are not problems we have. We write code and are biased toward minimal documentation and against upfront specs so we rarely write long documents.
+ 
+We use Google Sheets for our company-wide budget and forecast. We also often use Google Sheets to collect or analyze other data. We can often create an initial version of something new there using IMPORTDATA and Heroku dataclips to avoid building a custom app.
+ 
+## Meetings
+
+We over-communicate with clients in-person and online to avoid having scheduled meetings. Every problem arises from poor communication.
+ 
+When we need to meet for a discussion, we aim for 30 minutes spent in-person.
+ 
+When working remotely, Google Meet are indispensable as the "next best thing". They are easy to set up, sharable by URL, and let us get a look at whoever we're talking to.
+ 
+Screen-sharing is also very easy, when necessary. We have used Hangouts for client meetings, candidate interviews, and company meetings.
+ 
+We use conference lines that are part of our VoIP system, provided by OnSip, for voice conferencing.
+ 
+## Accounting
+
+We use Xero.
+ 
+Performance Reviews
+In order to continually improve ourselves and the company, all year round on every project we're on, we receive regular feedback from clients, managers, and teammates. We additionally have formal performance review three times a year.
+ 
+We use 15five to administer these reviews, which include a self-review, and feedback from both our manager and peers. The team feedback is shared with us before the review meeting.
+ 
+The agenda for review meetings is roughly:
+- Review the feedback from team members
+- Our performance on recent consulting projects
+- Our investment time contributions
+- Our satisfaction with our work, projects, and the company
+- Our questions about thoughtbot and our strategy
+- Our areas of focus for the next quarter
+- The results of the review are recorded and influence future compensation increases.
+
+## Landin pages - questions to ask
+ 
+Choice of CMS:
+- Wordpress 
+- Webflow
+
+How much of edits for news/blog posts will you be making, that is how necessary a Content Management System is? We would ideally stick to a clean JavaScript implementation which will help the front-end to remain fast and SEO-friendly, as opposite to going with something like Wordpress which tend to create issues for page speed, which is in turn is a very important aspect these days for Google's Page Rank. For the platform front-end React looks like a perfect option (a Facebook-supported framework with huge community that provides a great Single Page Application implementation, and SEO-friendly among other advantages), so it would make sense to also use React for the front landing pages.
+
+## How we work with data
+
+User data protection
+Secure servers and access
+SSL 
+Develop anonymisation
+
+## Sprint proposal template
+https://docs.google.com/document/d/1XevfXwI8wE-OdA0ehYJOw3n3irLYQ-xgcRtfKVDjqBA/edit?usp=sharing
+User flow
+Wireframes
+Detailed estimate tasks a few hours each max
+PM time
+Team comm
+Releases
+Unit tests
