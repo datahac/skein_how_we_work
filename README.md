@@ -14,7 +14,11 @@ It is a living document that everyone at Skein can edit in a private GitHub repo
 ## Agile Sprint-based delivery 
 
 We are a Crown Commercial Services supplier and follow agile delivery approach outlined at
-https://www.gov.uk/service-manual/agile-delivery 
+[Link] https://www.gov.uk/service-manual/agile-delivery 
+
+## Innovation
+
+Creating new Intellectal Property for our clients is important, and work to understand client's business vision, research competitors and market, analyse existing patents and academic publications.
 
 # Development
 
