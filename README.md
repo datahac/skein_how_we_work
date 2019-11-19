@@ -1,7 +1,7 @@
 
 # About Skein
 
-We partner with organizations of all sizes to design, develop, and implement innovative digital tech for some of the worlds' biggest challenges, that included in the past solutions for providing housing, improving healthcare, fixing financial systems. 
+We partner with organisations of all sizes to design, develop, and implement innovative digital tech for some of the worlds' biggest challenges, that included in the past solutions for providing housing, improving healthcare, fixing financial systems. 
 
 We have worked with hundreds of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies.
 
@@ -187,13 +187,12 @@ These tools are not well-suited for large documents or complicated spreadsheets,
  
 ## Meetings
 
-We over-communicate with clients in-person and online to avoid having scheduled meetings. Every problem arises from poor communication.
+We aim to over-communicate with clients in-person and online. Every problem arises from poor communication.
  
 When we need to meet for a discussion, we aim for 30 minutes spent in-person.
  
 When working remotely, Google Meet are indispensable as the "next best thing". They are easy to set up, sharable by URL, and let us get a look at whoever we're talking to.
- 
-Screen-sharing is also very easy, when necessary. We have used Hangouts for client meetings, candidate interviews, and company meetings.
+
  
 ## Accounting
 
