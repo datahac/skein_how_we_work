@@ -1,6 +1,6 @@
-# Code Reviews
+Code Reviews
 
-**Here's the flow. Read our git protocol for the git commands.**
+Here's the flow. Read our git protocol for the git commands.
  
 Create a local feature branch based off master.
 When feature is complete and tests pass, stage the changes.
