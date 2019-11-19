@@ -1,0 +1,7 @@
+Error Tracking
+
+We use error tracking software to capture exceptions in production.
+
+We try to use tools that support all of the languages and platforms we use to build applications, and those which provide integrations that make it easy to stay on top of errors. Such as Sentry's Slack integration for real-time alerts and Jira integration so we can prioritize bugs in the same place as features.
+
+We like and use Sentry.
