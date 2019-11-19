@@ -1,7 +1,7 @@
 
 # About Skein
 
-We partner with organizations of all sizes to design, develop, and implement innovative digital tech for some of the worlds' biggest challenges, that include solutions for providing housing, improving healthcare, fixing financial processes. 
+We partner with organizations of all sizes to design, develop, and implement innovative digital tech for some of the worlds' biggest challenges, that included in the past solutions for providing housing, improving healthcare, fixing financial systems. 
 
 We have worked with hundreds of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies.
 
@@ -175,13 +175,14 @@ We use Google Docs for our editable documents.
  
 We prefer Google Docs because they are:
  
-Easily sharable by URL. Everyone has a browser, not everyone has Microsoft Office installed.
-Always up to date with the latest edits.
-Enable real-time collaboration, like group meeting notes.
-Autosaved to the cloud, so no worrying about backup.
-Are as easy to find as Googling something.
-Without document type versioning (e.g. xls vs. xlsx).
-Cheap.
+* Easily sharable by URL. Everyone has a browser, not everyone has Microsoft Office installed.
+* Always up to date with the latest edits.
+* Enable real-time collaboration, like group meeting notes.
+* Autosaved to the cloud, so no worrying about backup.
+* Are as easy to find as Googling something.
+* Without document type versioning (e.g. xls vs. xlsx).
+* Cheap.
+
 These tools are not well-suited for large documents or complicated spreadsheets, but broadly these are not problems we have. We write code and are biased toward minimal documentation and against upfront specs so we rarely write long documents.
  
 ## Meetings
@@ -194,14 +195,12 @@ When working remotely, Google Meet are indispensable as the "next best thing". T
  
 Screen-sharing is also very easy, when necessary. We have used Hangouts for client meetings, candidate interviews, and company meetings.
  
-We use conference lines that are part of our VoIP system, provided by OnSip, for voice conferencing.
- 
 ## Accounting
 
 We use Xero.
  
 ## Performance Reviews
-In order to continually improve ourselves and the company, all year round on every project we're on, we receive regular feedback from clients, managers, and teammates. We additionally have formal performance review three times a year.
+In order to continually improve ourselves and the company, all year round on every project we're on, we receive regular feedback from clients, managers, and teammates. We additionally have formal performance review four times a year.
  
 
 The agenda for review meetings is roughly:
