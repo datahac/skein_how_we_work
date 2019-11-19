@@ -86,7 +86,7 @@ CI can ease the pain by distributing the test runs in parallel.
 
 ## Refactoring
 
-The third step of the "red, green, refactor" step is refactoring, the process of improving the design of existing code without altering its external behavior. It's a critical step in the process, but often overlooked. We're so passionate about refactoring, we wrote an entire book on it, Ruby Science.
+The third step of the "red, green, refactor" step is refactoring, the process of improving the design of existing code without altering its external behavior. It's a critical step in the process, but often overlooked.
  
 ## Style Guide
 
@@ -94,11 +94,13 @@ We write code in a consistent style that emphasizes cleanliness and team communi
  
 High level guidelines:
  
-- Be consistent.
-- Don't rewrite existing code to follow this guide.
-- Don't violate a guideline without a good reason.
-- A reason is good when you can convince a teammate.
-- Where we can, we set up Hound to help automate following the style guide during Code Review, which helps us stick to our high-level guidelines and keep our reviews focused on code legibility & quality.
+* Be consistent.
+* Don't rewrite existing code to follow this guide.
+* Don't violate a guideline without a good reason.
+* A reason is good when you can convince a teammate.
+* Create documentation and meaningful comments that explain what the code does.
+* Build reusable components.
+
  
 ## Test-Driven Development (TDD)
  
@@ -125,29 +127,24 @@ At a high level, how to test is very simple:
 ## Version Control
 
 We always use source code control. It's like a time machine. We can work in parallel universes of our source code, experimenting without fear of losing work, rolling back if something goes wrong.
- 
-Git is an open source source code control system written by Linus Torvalds. It's fast and great for working in branches.
- 
+
 We use GitHub for hosting our Git repositories.
 
 ## SSL Certificates
 
 We want to ensure that our user's data is encrypted during transit and that the data they may provide is sent securely. The HTTPS-Only Standard provides a great, and much more detailed, description of the reasoning behind this.
- 
-This has become much easier with Let's Encrypt, which provides a free to use, automatic and secure certificate authority. It's integrated with Heroku, which allows us to use their Automated Certificate Management feature.
- 
-When we need wildcard certificates (e.g.: when we want to use the same certificate across www., staging., etc.), or those with advanced features, we use DNSimple.
+
  
 ## Transactional Email
 
 We use SendGrid to have our application deliver email to users, known as transactional email.
  
 Examples of transactional email are:
-- Confirmations
-- Follow ups after the first 3 days of use
-- Free trial is expiring
-- Message another user in the system
-- We use SendGrid directly, not via the Heroku add-on, in order to avoid being lumped under the same IP group as others on Heroku (who might be misbehaving).
+* Confirmations
+* Follow ups after the first 3 days of use
+* Free trial is expiring
+* Message another user in the system
+
  
 ## Browser Testing and Support
  
@@ -159,7 +156,7 @@ In limited special cases, user demographics will dictate that supporting a less 
  
 Browser support means that we make a site or web app usable. A usable site allows a user to achieve all necessary tasks. Support does not mean visual and behavioral parity across all browsers. While we may strive for this, it's not always possible to achieve the exact same user experience cross-browser.
 
-# Processes
+# Operations
 
 ## Email
 
