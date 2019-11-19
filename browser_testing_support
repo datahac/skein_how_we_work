@@ -1,0 +1,9 @@
+Browser Testing and Support
+
+We default to supporting the newest and the last previous two releases of popular browsers for desktop devices.
+
+Older versions are much harder, more time consuming and hence more expensive to design for, develop for and support.
+
+In limited special cases, user demographics will dictate that supporting a less common or older version of a browser is required. Those special cases should be identified early on so we can plan for additional time and expense in order to support the version.
+
+Browser support means that we make a site or web app usable. A usable site allows a user to achieve all necessary tasks. Support does not mean visual and behavioral parity across all browsers. While we may strive for this, it's not always possible to achieve the exact same user experience cross-browser.
