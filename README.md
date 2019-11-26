@@ -24,7 +24,7 @@ Creating new Intellectal Property for our clients is important, and work to unde
 
 ## Sprints
 
-One of our primary process goals is to make frequent, small releases of our working software. We do through frequent communication and weekly iterations on a product. Development sprint usually last two weeks.
+One of our primary process goals is to make frequent, small releases of our working software. We do through frequent communication and weekly iterations on a product. A development sprint usually lasts two weeks.
 
 ## Error Tracking
 
