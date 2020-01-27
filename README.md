@@ -3,7 +3,7 @@
 
 We partner with organisations of all sizes to design, develop, and implement innovative digital tech for some of the worlds' biggest challenges, that included in the past solutions for providing housing, improving healthcare, fixing financial systems. 
 
-We have worked with hundreds of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies.
+We have worked with over hundred of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies.
 
 This is **How We Work**. It details how we make successful tech products, and also how we run our company.
 
