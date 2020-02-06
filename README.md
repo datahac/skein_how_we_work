@@ -208,6 +208,6 @@ The agenda for review meetings is roughly:
 - Our performance on recent consulting projects
 - Our investment time contributions
 - Our satisfaction with our work, projects, and the company
-- Our questions about thoughtbot and our strategy
+- Our questions about our strategy
 - Our areas of focus for the next quarter
 - The results of the review are recorded and influence future compensation increases.
