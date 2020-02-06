@@ -1,14 +1,3 @@
-
-# About Skein
-
-We partner with organisations of all sizes to design, develop, and implement innovative digital tech for some of the worlds' biggest challenges, that included in the past solutions for providing housing, improving healthcare, fixing financial systems. 
-
-We have worked with over a hundred of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies.
-
-This is **How We Work**. It details how we make successful tech products, and also how we run our company.
-
-It is a living document that everyone at Skein can edit in a private GitHub repo.
-
 # Process
 
 ## Agile Sprint-based delivery 
@@ -210,4 +199,14 @@ The agenda for review meetings is roughly:
 - Our satisfaction with our work, projects, and the company
 - Our questions about thoughtbot and our strategy
 - Our areas of focus for the next quarter
+
+# About Skein
+
+We partner with organisations of all sizes to design, develop, and implement innovative digital tech for some of the worlds' biggest challenges, that included in the past solutions for providing housing, improving healthcare, fixing financial systems. 
+
+We have worked with over a hundred of product teams all over the world, from individual founders who are self-funded, to large multi-national organizations. We have also created our own products and technologies.
+
+This is **How We Work**. It details how we make successful tech products, and also how we run our company.
+
+It is a living document that everyone at Skein can edit in a private GitHub repo.
 - The results of the review are recorded and influence future compensation increases.
